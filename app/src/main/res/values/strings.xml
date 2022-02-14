@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">E-GOT PTTK</string>
+    <string name="save_route_add_proof_use_case">Zapisanie trasy i zamieszczenie dowodu A. Kłobus</string>
+    <string name="mountain_pass_use_case">Edycja odcinka A. Stecka</string>
+    <string name="confirm_route_use_case">Potwierdzenie trasy A. Stecka</string>
+
+    <string name="extension_point_label">Przejście do innego PU</string>
+    <string name="not_implemented_label">PU nie wybrany do implementacji</string>
+    <string name="implemented_elsewhere_label">Aby obejrzeć implementację PU na głównym ekranie naciśnij przycisk Zapisanie trasy i zamieszczenie dowodu A. Kłobus</string>
+
+    <string name="nav_mountain_passes_list_label">Spis odcinków</string>
+    <string name="nav_account_label">Utwórz konto</string>
+    <string name="nav_ebook_label">E - GOT</string>
+    <string name="nav_routes_label">Trasy</string>
+    <string name="nav_mountain_passes_label">Odcinki</string>
+    <string name="nav_confirm_label">Potwierdź</string>
+    <string name="last_routes">Ostatnie trasy</string>
+    <string name="add_route">Dodaj trasę</string>
+    <string name="add_mountain_pass">Dodaj odcinek</string>
+    <string name="add_new_mountain_pass">Dodaj odcinek</string>
+    <string name="own_mountain_pass">Wybierz własny</string>
+    <string name="official_mountain_pass">Wybierz ze spisu</string>
+    <string name="add_proof">Dodaj dowód</string>
+    <string name="adding_passes_end">Zakończ dodawanie odcinków</string>
+    <string name="mountain_passes_list">Spis odcinków</string>
+
+    <string name="details">Szczegóły</string>
+    <string name="start">Początek:</string>
+    <string name="end">Koniec:</string>
+    <string name="points">Punkty:</string>
+    <string name="through">Przez:</string>
+    <string name="name">Nazwa:</string>
+    <string name="mountain_group">Grupa górska:</string>
+    <string name="mountain_range">Pasmo górskie:</string>
+    <string name="status">Status:</string>
+    <string name="proof">Dowód:</string>
+    <string name="points_undecorated">Punkty</string>
+    <string name="name_undecorated">Nazwa</string>
+    <string name="longitude">Długość geograficzna</string>
+    <string name="latitude">Szerokość geograficzna</string>
+    <string name="mountain_group_undecorated">Grupa górska</string>
+    <string name="mountain_range_undecorated">Pasmo górskie</string>
+    <string name="time_label">Czas przejścia:</string>
+    <string name="choose_date">Wybierz datę:</string>
+
+    <string name="pass_edit">Edytuj odcinek</string>
+    <string name="pass_delete">Usuń odcinek</string>
+    <string name="edit">Edytuj</string>
+    <string name="save">Zapisz</string>
+    <string name="cancel">Anuluj</string>
+    <string name="finish_editing_pass">Zakończ</string>
+
+    <string name="edit_points">Edytuj punkty</string>
+    <string name="edit_name">Edytuj nazwę</string>
+    <string name="edit_official_point">Edytuj punkt</string>
+
+    <string name="none">-</string>
+    <string name="no_capitalized">NIE</string>
+    <string name="yes_capitalized">TAK</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="active">aktywny</string>
+    <string name="removed">zlikwidowany</string>
+    <string name="confirmed">zatwierdzona</string>
+    <string name="rejected">odrzucona</string>
+    <string name="waiting_for_confirmation">oczekuje na potwierdzenie</string>
+    <string name="waiting_to_be_sent">oczekuje na wysłanie</string>
+
+    <string name="alert">Uwaga</string>
+    <string name="status_change_message">Czy na pewno chcesz zmienić status odcinka?</string>
+    <string name="back">Cofnij</string>
+    <string name="ok">OK</string>
+
+    <string name="negative_points_message">Liczba punktów nie może być mniejsza od zera</string>
+    <string name="too_many_points_message">Liczba punktów nie może być większa niż 100</string>
+    <string name="mountain_range_error_message">Nie ma takiego pasma górskiego</string>
+    <string name="confirm_cancel_message">Czy na pewno chcesz anulować?</string>
+    <string name="no_point_set_message">Odcinek musi mieć punkt początkowy i końcowy</string>
+    <string name="points_in_different_mountain_ranges_message">Wszystkie punkty odcinka muszą znajdować się w tym samym paśie górskim</string>
+    <string name="no_point_name_message">Podaj nazwę punktu</string>
+
+    <string name="no_passes_message">Dodaj przynajmniej jeden odcinek</string>
+    <string name="no_passes_chosen_message">Wybierz przynajmniej jeden odcinek</string>
+    <string name="previous_end_current_start_message">Koniec poprzedniego odcinka musi być początkiem nowego odcinka</string>
+    <string name="negative_time_message">Czas przejścia musi być większy od zera</string>
+    <string name="time_too_long_message">Czas przejścia nie może być większy niż 24h</string>
+    <string name="minutes">min</string>
+    <string name="zero">0</string>
+    <string name="save_route">Zapisz trasę</string>
+    <string name="points_sum">Suma punktów:</string>
+
+    <string name="pick_proof_image">Wybierz obraz dowodu</string>
+    <string name="image_not_selected">Nie udało się wybrać obrazu</string>
+    <string name="delete">Usuń</string>
+    <string name="edit_proofs">Edytuj dowody</string>
+    <string name="send_to_leader">Wyślij do potwierdzenia</string>
+    <string name="see_proofs">Zobacz dowody</string>
+    <string name="delete_proofs">Usuń dowód</string>
+    <string name="add_image">Dodaj zdjęcie</string>
+    <string name="add_leader">Dodaj dane przodownika</string>
+    <string name="id_no">Numer legitymacji:</string>
+    <string name="id_no_undecorated">Numer legitymacji</string>
+    <string name="leader">Przodownik:</string>
+    <string name="leader_undecorated">Przodownik</string>
+    <string name="name_and_surname">Imię i nazwisko:</string>
+    <string name="include_image">Załącz obraz</string>
+    <string name="choose_image">Wybierz obraz</string>
+    <string name="mountain_passes">Odcinki</string>
+    <string name="mountain_passes_decorated">Odcinki:</string>
+    <string name="close">Zamknij</string>
+    <string name="leader_already_added_message">Dla tej trasy załączono już dane przodownika</string>
+    <string name="leader_not_found_message">Nie znaleziono przodownika o takim numerze legitymacji</string>
+    <string name="no_proofs_message">Dla tej trasy nie załączono dowodu</string>
+    <string name="no_proof_selected_message">Wybierz dowód do usunięcia</string>
+    <string name="confirm_delete_message">Czy na pewno chcesz usunąć dowód?</string>
+    <string name="not_send">oczekuje na wysłanie</string>
+
+    <string name="to_confirm">Do potwierdzenia:</string>
+    <string name="route_sections">Odcinki trasy</string>
+    <string name="no_section_without_proof">Wszystkie odcinki tej trasy mają już dowody!</string>
+    <string name="confirm_send_to_leader_message">Czy na pewno chcesz wysłać trasę do potwierdzenia?</string>
+    <string name="confirm_route_confirmation_message">Czy na pewno chcesz potwierdzić tę trasę?</string>
+    <string name="confirm_route_rejection_message">Czy na pewno chcesz odrzucić tę trasę?</string>
+    <string name="confirm_route">Potwierdź</string>
+    <string name="reject_route">Odrzuć</string>
+    <string name="show_proofs">Pokaż dowody</string>
+    <string name="show_on_map">Pokaż na mapie</string>
+    <string name="show_mountain_passes">Pokaż odcinki</string>
+    <string name="confirm_route_title">Potwierdź trasę</string>
+    <string name="routes_to_confirm">Trasy do potwierdzenia:</string>
+    <string name="proof_image_description">Zdjęcie przedstawiające dowód przebycia trasy załączony przez turystę</string>
+
+</resources>

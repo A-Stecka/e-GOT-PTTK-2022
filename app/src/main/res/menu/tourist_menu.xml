@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_ebook"
+        android:icon="@drawable/open_book"
+        android:title="@string/nav_ebook_label" />
+
+    <item
+        android:id="@+id/navigation_route"
+        android:icon="@drawable/snowed_mountains"
+        android:title="@string/nav_routes_label" />
+
+    <item
+        android:id="@+id/navigation_mountain_passes"
+        android:icon="@drawable/destination"
+        android:title="@string/nav_mountain_passes_label" />
+
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.tourist.route.PickMountainPassFragment">
+
+    <TextView
+        android:id="@+id/mountain_passes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mountain_passes_list"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mountain_passes_list_pick"
+        android:name="com.example.po.ui.tourist.ItemFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        app:layoutManager="LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mountain_passes"
+        tools:context=".view.MountainPassItemFragment"
+        tools:listitem="@layout/fragment_mountain_pass_item" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

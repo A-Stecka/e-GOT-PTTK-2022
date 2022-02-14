@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_leader"
+    app:startDestination="@id/confirmRouteListFragment">
+
+    <fragment
+        android:id="@+id/notImplementedFragment"
+        android:name="com.example.poapp.view.NotImplementedFragment"
+        android:label="fragment_not_implemented"
+        tools:layout="@layout/fragment_not_implemented" />
+    <fragment
+        android:id="@+id/implementedElsewhereFragment"
+        android:name="com.example.poapp.view.ImplementedElsewhereFragment"
+        android:label="fragment_implemented_elsewhere"
+        tools:layout="@layout/fragment_implemented_elsewhere" />
+    <fragment
+        android:id="@+id/confirmRouteListFragment"
+        android:name="com.example.poapp.view.leader.ConfirmRouteListFragment"
+        android:label="fragment_confirm_route_list"
+        tools:layout="@layout/fragment_confirm_route">
+        <action
+            android:id="@+id/action_confirmRouteListFragment_to_notImplementedFragment"
+            app:destination="@id/notImplementedFragment" />
+        <action
+            android:id="@+id/action_confirmRouteListFragment_to_implementedElsewhereFragment"
+            app:destination="@id/implementedElsewhereFragment" />
+    </fragment>
+</navigation>

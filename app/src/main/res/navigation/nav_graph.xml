@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/routeListFragment">
+
+    <fragment
+        android:id="@+id/notImplementedFragment"
+        android:name="com.example.poapp.view.NotImplementedFragment"
+        android:label="fragment_not_implemented"
+        tools:layout="@layout/fragment_not_implemented" />
+
+    <fragment
+        android:id="@+id/routeListFragment"
+        android:name="com.example.poapp.view.tourist.route.RouteListFragment"
+        android:label="fragment_route_list"
+        tools:layout="@layout/fragment_route_list" >
+        <action
+            android:id="@+id/action_routeListFragment_to_notImplementedFragment"
+            app:destination="@id/notImplementedFragment" />
+    </fragment>
+
+</navigation>

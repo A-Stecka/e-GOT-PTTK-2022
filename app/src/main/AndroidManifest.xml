@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.poapp">
+
+    <application
+        android:allowBackup="false"
+        android:fullBackupOnly="false"
+        android:icon="@drawable/e_got_pttk"
+        android:roundIcon="@drawable/e_got_pttk_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <activity
+            android:name=".view.leader.ConfirmRouteActivity"
+            android:exported="true"
+            android:theme="@style/Theme.leader_theme" />
+        <activity
+            android:name=".view.tourist.route.SaveRouteActivity"
+            android:exported="true"
+            android:theme="@style/Theme.tourist_theme" />
+        <activity
+            android:name=".view.member.MountainPassesActivity"
+            android:exported="true"
+            android:theme="@style/Theme.member_theme" />
+        <activity
+            android:name=".view.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.main_theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDqR8OotD3_SsVd4XMEK8DWPRY0MoYBKJA" />
+    </application>
+</manifest>

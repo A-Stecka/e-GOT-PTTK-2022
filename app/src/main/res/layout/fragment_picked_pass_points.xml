@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.tourist.route.PickedPassPointsFragment">
+
+    <TextView
+        android:id="@+id/pass_start_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:text="@string/start"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pass_start"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:text="@string/none"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/pass_start_label"
+        app:layout_constraintTop_toTopOf="@id/pass_start_label" />
+
+    <TextView
+        android:id="@+id/pass_end_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textSize="20sp"
+        android:text="@string/end"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pass_start" />
+
+    <TextView
+        android:id="@+id/pass_end"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:text="@string/none"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/pass_end_label"
+        app:layout_constraintTop_toTopOf="@id/pass_end_label" />
+
+    <TextView
+        android:id="@+id/pass_points_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/points"
+        app:layout_constraintStart_toStartOf="@id/pass_start_label"
+        app:layout_constraintTop_toBottomOf="@id/pass_end" />
+
+    <TextView
+        android:id="@+id/pass_points"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:text="@string/none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/pass_points_label"
+        app:layout_constraintTop_toTopOf="@id/pass_points_label" />
+
+    <TextView
+        android:id="@+id/pass_through_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/through"
+        app:layout_constraintStart_toStartOf="@id/pass_start_label"
+        app:layout_constraintTop_toBottomOf="@id/pass_points" />
+
+    <TextView
+        android:id="@+id/pass_through"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:text="@string/none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/pass_through_label"
+        app:layout_constraintTop_toTopOf="@id/pass_through_label" />
+
+    <TextView
+        android:id="@+id/pass_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/name"
+        app:layout_constraintStart_toStartOf="@id/pass_start_label"
+        app:layout_constraintTop_toBottomOf="@id/pass_through" />
+
+    <TextView
+        android:id="@+id/pass_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:text="@string/none"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/pass_name_label"
+        app:layout_constraintTop_toTopOf="@id/pass_name_label" />
+
+    <TextView
+        android:id="@+id/time_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:textSize="20sp"
+        android:text="@string/time_label"
+        android:labelFor="@id/time_value"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/time_value"
+        app:layout_constraintTop_toBottomOf="@id/pass_name"/>
+
+    <EditText
+        android:id="@+id/time_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:text="@string/zero"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        app:layout_constraintBaseline_toBaselineOf="@id/time_label"
+        app:layout_constraintStart_toEndOf="@id/time_label"
+        app:layout_constraintEnd_toStartOf="@id/minute_symbol"
+        android:autofillHints=".AUTOFILL_HINT_NOT_APPLICABLE" />
+
+    <TextView
+        android:id="@+id/minute_symbol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:textSize="20sp"
+        android:text="@string/minutes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@id/time_value"
+        app:layout_constraintStart_toEndOf="@id/time_value"/>
+
+    <Button
+        android:id="@+id/add_route_pass_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/add_mountain_pass"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

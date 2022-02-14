@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/POApp/app/src/main/res/layout/activity_main.xml" value="0.1585144927536232" />
+        <entry key="..\:/AndroidStudioProjects/POApp/app/src/main/res/layout/activity_spis_odc.xml" value="0.2504528985507246" />
+        <entry key="..\:/AndroidStudioProjects/POApp/app/src/main/res/layout/activity_zapisanie_trasy.xml" value="0.1585144927536232" />
+        <entry key="..\:/AndroidStudioProjects/POApp/app/src/main/res/layout/content_spis_odc.xml" value="0.20572916666666666" />
+        <entry key="..\:/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_create_account.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_item.xml" value="0.16983695652173914" />
+        <entry key="..\:/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_nowa_trasa.xml" value="0.1585144927536232" />
+        <entry key="..\:/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_nowy_odcinek.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_nowy_punkt.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_odcinek.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_odcinki.xml" value="0.1585144927536232" />
+        <entry key="..\:/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_odcinki_lista.xml" value="0.35260416666666666" />
+        <entry key="..\:/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_placeholder_content.xml" value="0.1585144927536232" />
+        <entry key="..\:/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_trasy_lista.xml" value="0.1585144927536232" />
+        <entry key="..\:/AndroidStudioProjects/POApp/app/src/main/res/menu/pracownik_menu.xml" value="0.36666666666666664" />
+        <entry key="..\:/AndroidStudioProjects/POApp/app/src/main/res/menu/user_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/drawable/pracownik_menu.xml" value="0.2890625" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/drawable/przodownik_menu.xml" value="0.2890625" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/drawable/turysta_menu.xml" value="0.2890625" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/activity_confirm_route.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/activity_main.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/activity_mountain_passes.xml" value="0.23641304347826086" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/activity_potwierdz.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/activity_spis_odc.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/activity_zapisanie_trasy.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_add_image_sections_list.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_add_proof.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_add_proof_leader.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_confirm_route_list.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_conform_route_list.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_create_account.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_e_got.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_edit_mountain_pass_name.xml" value="0.18931159420289856" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_edit_mountain_pass_points.xml" value="0.18931159420289856" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_edit_proofs.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_edit_route_points.xml" value="0.18931159420289856" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_item.xml" value="0.75" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_map.xml" value="0.2140625" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_mountain_pass.xml" value="0.18931159420289856" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_mountain_pass_details.xml" value="0.25" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_mountain_pass_item.xml" value="0.23641304347826086" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_mountain_pass_item2.xml" value="0.23641304347826086" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_mountain_pass_pick.xml" value="0.23641304347826086" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_mountain_passes_list.xml" value="0.23233695652173914" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_new_geo_point.xml" value="0.1503623188405797" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_new_mountain_pass.xml" value="0.1503623188405797" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_new_route.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_nowa_trasa.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_nowy_odcinek.xml" value="0.21195652173913043" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_nowy_punkt.xml" value="0.21195652173913043" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_odcinek.xml" value="0.21195652173913043" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_odcinki.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_odcinki_lista.xml" value="0.4513018322082932" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_pick_mountain_pass.xml" value="0.23641304347826086" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_picked_pass_points.xml" value="0.33" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_potwierdz_lista.xml" value="0.12916666666666668" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_proof_list.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_proof_list2.xml" value="0.2140625" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_route_details.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_route_item.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_route_list.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_route_section_details.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_route_section_item.xml" value="0.20199275362318841" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_route_sections_list.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/fragment_save_route.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/item_proof.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/item_route_section_small.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/route_for_leader_item.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/layout/sections_proof_item.xml" value="0.22418478260869565" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/menu/pracownik_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/menu/przodownik_menu.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/agaha/Desktop/POApp/app/src/main/res/menu/settings_menu.xml" value="0.14322916666666666" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/drawable/pracownik_menu.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/drawable/przodownik_menu.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/drawable/turysta_menu.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout-v26/fragment_picked_pass_points.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/activity_confirm_route.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/activity_mountain_passes.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/activity_save_route.xml" value="0.18085106382978725" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/activity_spis_odc.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/activity_zapisanie_trasy.xml" value="0.33" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_add_image_sections_list.xml" value="0.1400709219858156" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_add_proof.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_add_proof_leader.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_confirm_route.xml" value="0.33" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_confirm_route_list.xml" value="0.25" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_create_account.xml" value="0.371875" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_e_got.xml" value="0.371875" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_edit_mountain_pass_name.xml" value="0.18085106382978725" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_edit_mountain_pass_points.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_edit_proofs.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_implemented_elsewhere.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_item.xml" value="0.371875" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_map.xml" value="0.28802083333333334" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_mountain_pass.xml" value="0.3088768115942029" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_mountain_pass_details.xml" value="0.3088768115942029" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_mountain_pass_item.xml" value="0.33" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_mountain_pass_pick.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_mountain_passes_list.xml" value="0.18085106382978725" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_new_mountain_pass.xml" value="0.33" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_new_official_point.xml" value="0.3161231884057971" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_new_route.xml" value="0.33" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_not_implemented.xml" value="0.1490036231884058" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_nowa_trasa.xml" value="0.371875" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_odcinki.xml" value="0.371875" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_odcinki_lista.xml" value="0.371875" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_pick_mountain_pass.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_pick_official_mountain_pass.xml" value="0.3161231884057971" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_pick_own_mountain_pass.xml" value="0.3161231884057971" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_picked_pass_points.xml" value="0.33" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_proof_list.xml" value="0.33" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_route_details.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_route_item.xml" value="0.25" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_route_list.xml" value="0.18085106382978725" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_route_section_details.xml" value="0.28802083333333334" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_route_section_item.xml" value="0.33" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_route_sections_list.xml" value="0.28802083333333334" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_save_route.xml" value="0.3161231884057971" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/fragment_trasy_lista.xml" value="0.33" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/item_route_section_small.xml" value="0.28802083333333334" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/route_for_leader_item.xml" value="0.28802083333333334" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/layout/sections_proof_item.xml" value="0.21" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/menu/leader_menu.xml" value="0.371875" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/menu/member_menu.xml" value="0.371875" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/menu/pracownik_menu.xml" value="0.371875" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/menu/przodownik_menu.xml" value="0.371875" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/menu/settings_menu.xml" value="0.2490740740740741" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/menu/tourist_menu.xml" value="0.371875" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/menu/turysta_menu.xml" value="0.371875" />
+        <entry key="..\:/Users/galar/AndroidStudioProjects/POApp/app/src/main/res/menu/user_menu.xml" value="0.371875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

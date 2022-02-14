@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.tourist.route.RouteDetailsFragment">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/details"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/route_section_list"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        app:layoutManager="LinearLayoutManager"
+        app:layout_constraintTop_toBottomOf="@id/text_view"
+        app:layout_constraintBottom_toTopOf="@id/edit_proofs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:context=".view.MountainPassItemFragment"
+        tools:listitem="@layout/fragment_mountain_pass_item" />
+
+    <Button
+        android:id="@+id/edit_proofs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_proofs"
+        app:layout_constraintBottom_toTopOf="@id/edit_route"
+        app:layout_constraintStart_toStartOf="@id/send_to_leader"
+        app:layout_constraintEnd_toEndOf="@id/send_to_leader" />
+
+    <Button
+        android:id="@+id/edit_route"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/edit"
+        app:layout_constraintBottom_toTopOf="@id/delete_route"
+        app:layout_constraintStart_toStartOf="@id/send_to_leader"
+        app:layout_constraintEnd_toEndOf="@id/send_to_leader" />
+
+    <Button
+        android:id="@+id/delete_route"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/delete"
+        android:backgroundTint="@color/red"
+        app:layout_constraintBottom_toTopOf="@id/send_to_leader"
+        app:layout_constraintStart_toStartOf="@id/send_to_leader"
+        app:layout_constraintEnd_toEndOf="@id/send_to_leader"/>
+
+    <Button
+        android:id="@+id/send_to_leader"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/send_to_leader"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

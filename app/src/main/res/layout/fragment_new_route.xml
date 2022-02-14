@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.tourist.route.NewRouteFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/route_section_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        app:layoutManager="LinearLayoutManager"
+        app:layout_constraintBottom_toTopOf="@id/add_mountain_pass_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:context=".view.MountainPassItemFragment"
+        tools:listitem="@layout/fragment_mountain_pass_item" />
+
+    <Button
+        android:id="@+id/add_mountain_pass_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/add_mountain_pass"
+        app:layout_constraintBottom_toTopOf="@+id/official_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/route_section_list" />
+
+    <Button
+        android:id="@+id/own_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/own_mountain_pass"
+        android:visibility="gone"
+        app:layout_constraintBaseline_toBaselineOf="@+id/official_button"
+        app:layout_constraintEnd_toStartOf="@+id/official_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/official_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="@string/official_mountain_pass"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@id/add_proof_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/own_button"
+        app:layout_constraintTop_toBottomOf="@+id/add_mountain_pass_button" />
+
+    <Button
+        android:id="@+id/add_proof_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:text="@string/add_proof"
+        app:layout_constraintBottom_toTopOf="@+id/end_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/official_button" />
+
+    <Button
+        android:id="@+id/end_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/adding_passes_end"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_proof_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

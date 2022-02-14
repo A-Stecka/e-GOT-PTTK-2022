@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_employee"
+    app:startDestination="@id/mountainPassesListFragment">
+
+    <fragment
+        android:id="@+id/notImplementedFragment"
+        android:name="com.example.poapp.view.NotImplementedFragment"
+        android:label="fragment_not_implemented"
+        tools:layout="@layout/fragment_not_implemented" />
+
+    <fragment
+        android:id="@+id/mountainPassesListFragment"
+        android:name="com.example.poapp.view.member.MountainPassesListFragment"
+        android:label="fragment_mountain_passes_list"
+        tools:layout="@layout/fragment_mountain_passes_list" >
+        <action
+            android:id="@+id/action_mountainPassesListFragment_to_notImplementedFragment"
+            app:destination="@id/notImplementedFragment" />
+    </fragment>
+
+</navigation>

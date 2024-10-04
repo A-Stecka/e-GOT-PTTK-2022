@@ -23,4 +23,4 @@ W ramach projektu zaprojektowano aplikację korzystającą z bazy danych. Zaproj
 -
 Branch main zawiera dokumentację projektu. Implementacja aplikacji mobilnej wraz z testami znajdują się w branchu mobile_app.
 -
-Projekt wykonany wspólnie z A. Kłobus https://github.com/AgnieszkaKlobus12
+Projekt wykonany wspólnie z [A. Kłobus](https://github.com/AgnieszkaKlobus12).

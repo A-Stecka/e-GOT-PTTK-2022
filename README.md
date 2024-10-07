@@ -1,26 +1,26 @@
-# Elektroniczka książeczka GOT PTTK
-Projekt aplikacji dla Polskiego Towarzystwa Turystyczno - Krajoznawczego wykonany w ramach przedmiotu Projektowanie oprogramowania
+# Electronic GOT PTTK Booklet  
+A project for the Polish Tourist and Sightseeing Society (PTTK) application created as part of the course: Software Design
 -
-Górska Odznaka Turystyczna Polskiego Towarzystwa Turystyczno – Krajoznawczego jest odznaką ustanowioną w celu promowania turystyki górskiej. Zdobycie tej odznaki wiąże się więc z uprawianiem turystyki górskiej.
 
-Najpopularniejsze rodzaje GOT PTTK to:
+The Mountain Tourist Badge of the Polish Tourist and Sightseeing Society (GOT PTTK) is an award established to promote mountain tourism. Obtaining this badge is therefore associated with practicing mountain tourism.
 
-- popularna – o jednym stopniu,
+The most popular types of the GOT PTTK are:
 
-- mała – o trzech stopniach, brązowym, srebrnym i złotym.
+- **Popular** – with one level,
+- **Small** – with three levels: bronze, silver, and gold.
 
-Za wycieczki, na które wybierają się turyści otrzymują oni punkty, na podstawie których mogą ubiegać się o odznakę. Aby zdobyć odznakę popularną należy zdobyć 60 punktów. Na odznakę małą o stopniu brązowym należy zdobyć 120 punktów, o stopniu srebrnym 360 punktów, a o stopniu złotym 720 punktów. Jeżeli trasa wycieczki jest ujęta w spisie tras punktowanych do GOT PTTK należy stosować podaną w nim punktację. W przeciwnym wypadku przyznaje się jeden punkt za każdy przebyty kilometr oraz jeden punkt za każde pokonane 100 metrów różnicy poziomów przy podejściach.
+Tourists earn points for the trips they take, which they can use to apply for the badge. To obtain the popular badge, one must earn 60 points. For the small badge, 120 points are required for the bronze level, 360 points for the silver level, and 720 points for the gold level. If the route of the trip is listed in the point-counting routes for the GOT PTTK, the scoring provided in that list should be used. Otherwise, one point is awarded for each kilometer traveled and one point for every 100 meters of elevation gained during ascents.
 
-Dokumentem uprawniającym do nabycia i noszenia odznak GOT PTTK jest książeczka GOT PTTK. Książeczkę należy wypełniać samodzielnie, a następnie poddać ją weryfikacji. Istotnym elementem książeczki jest załączenie dowodu przebycia wpisanej trasy - w postaci zdjęć pieczątek z nazwami miejscowości, schronisk PTTK czy charakterystycznych elementów krajobrazu. Dostępne jest także załączenie dowodu przebycia trasy w postaci zrzutu ekranu pochodzącego z dowolnej aplikacji śledzącej lokalizację użytkownika. Dowód przebycia trasy nie jest konieczny jeśli przodownik turystyki górskiej PTTK uczestniczył w danej wycieczce i potwierdzi ten fakt podpisem oraz numerem legitymacji przodownickiej oraz, jeśli to możliwe, imienną pieczątką.
+The document authorizing the acquisition and wearing of the GOT PTTK badges is the GOT PTTK booklet. The booklet must be filled out by the individual and then submitted for verification. An important element of the booklet is the inclusion of proof of completing the listed route in the form of photos, stamps with the names of towns, PTTK shelters, or characteristic landscape features. It is also possible to attach proof of completing the route in the form of a screenshot from any location-tracking application. Proof of completing the route is not required if a PTTK mountain tourism guide participated in the trip and confirms this fact with their signature, guide's number, and, if possible, a personalized stamp.
 
-Trasy wpisane do książeczki GOT PTTK muszą zostać potwierdzone przez przodownika turystyki górskiej PTTK. Przodownik ma uprawnienia w danej grupie górskiej i określa, czy turysta faktycznie przebył wpisaną trasę na podstawie załączonych dowodów czy daty wycieczki. Wszystkie trasy wpisane do książeczki GOT PTTK muszą być potwierdzone przez przodownika.
+Routes entered in the GOT PTTK booklet must be confirmed by a PTTK mountain tourism guide. The guide has authorization for a specific mountain group and determines whether the tourist actually completed the listed route based on the attached proof or the date of the trip. All routes entered in the GOT PTTK booklet must be confirmed by a guide.
 
-Książeczki osób ubiegających się o GOT PTTK popularną i małą weryfikują Terenowe Referaty Weryfikacyjne GOT PTTK lub Centralny Referat Weryfikacyjny GOT PTTK.
+The booklets of individuals applying for the popular and small GOT PTTK are verified by the Field Verification Departments of the GOT PTTK or the Central Verification Department of the GOT PTTK.
 
-Celem projektu jest zaoferowanie alternatywy dla papierowej książeczki GOT PTTK w postaci systemu elektronicznego. System będzie zapewniał możliwość wprowadzania, modyfikacji oraz usuwania danych dotyczących odcinków tras punktowanych do GOT PTTK przez użytkowników do tego uprawnionych, a także wyszukiwania i prezentacji odcinków tras przez wszystkich użytkowników. Oprócz tego, system będzie umożliwiał dokumentowanie tras wycieczek odbytych w ramach zdobywania kolejnych rodzajów i stopni GOT PTTK.
+The aim of the project is to offer an alternative to the paper GOT PTTK booklet in the form of an electronic system. The system will provide the ability to enter, modify, and delete data concerning the segments of routes counted for the GOT PTTK by authorized users, as well as to search for and present route segments to all users. Additionally, the system will allow for documenting trips taken as part of obtaining various types and levels of the GOT PTTK.
 
-W ramach projektu zaprojektowano aplikację korzystającą z bazy danych. Zaprojektowaną aplikację zaimplementowano jako natywną aplikację mobilną na system Android z lokalną bazą danych SQLite.
+As part of the project, an application using a database was designed. The designed application was implemented as a native mobile application for the Android system with a local SQLite database.
+
+The main branch contains the project documentation. The implementation of the mobile application, along with tests, can be found in the mobile_app branch.
 -
-Branch main zawiera dokumentację projektu. Implementacja aplikacji mobilnej wraz z testami znajdują się w branchu mobile_app.
--
-Projekt wykonany wspólnie z [A. Kłobus](https://github.com/AgnieszkaKlobus12).
+This project was completed in collaboration with [A. Kłobus](https://github.com/AgnieszkaKlobus12).

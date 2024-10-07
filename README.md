@@ -1,5 +1,5 @@
 # Electronic GOT PTTK Booklet  
-A project for the Polish Tourist and Sightseeing Society (PTTK) application created as part of the Software Design course
+A project for the Polish Tourist and Sightseeing Society (PTTK) application created as part of the Software Design course during my engineering degree
 -
 
 The Mountain Tourist Badge of the Polish Tourist and Sightseeing Society (GOT PTTK) is an award established to promote mountain tourism. Obtaining this badge is therefore associated with practicing mountain tourism.
